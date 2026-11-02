@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<meta content="View hair, nail, makeup, skincare and bridal beauty inspiration from Glam Culture in Johannesburg. Select an image to view it larger." name="description"/>
+<meta content="beauty gallery, makeup inspiration, nail designs, bridal beauty Johannesburg" name="keywords"/>
+<meta content="#a83b67" name="theme-color"/>
+<title>Beauty Gallery | Glam Culture Johannesburg</title>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="site-header">
+<nav aria-label="Main navigation" class="navbar">
+<a class="brand" href="home.html">
+<img alt="Glam Culture logo" class="logo" src="images/logo.png"/>
+<span>Glam Culture</span>
+</a>
+<button aria-expanded="false" aria-label="Open navigation" class="menu-btn">Menu</button>
+<ul class="nav-links"><li><a class="" href="home.html">Home</a>
+</li>
+<li><a class="" href="about.html">About Us</a>
+</li>
+<li><a class="" href="services.html">Services</a>
+</li>
+<li><a class="active" href="gallery.html">Gallery</a>
+</li>
+<li><a href="enquiry.html">Enquiry</a></li><li>
+<a class="" href="contact.html">Contact</a>
+</li>
+</ul>
+</nav>
+</header>
+<div aria-hidden="true" class="floating-glam">
+<img alt="" class="float-item" loading="lazy" src="images/makeup.jpg"/>
+<img alt="" class="float-item" loading="lazy" src="images/nails.jpg"/>
+<img alt="" class="float-item" loading="lazy" src="images/hair.jpg"/>
+<img alt="" class="float-item" loading="lazy" src="images/facial.jpg"/>
+</div>
+<main>
+<section class="heading">
+<h1>Our Gallery</h1>
+<p>A look at our beauty and glam inspiration.</p>
+</section>
+<section aria-label="Featured beauty slideshow" class="slideshow reveal">
+<h2>Featured Glam Inspiration</h2>
+<div class="slide-stage">
+<img alt="Hair styling inspiration" id="slideImage" src="images/hair.jpg"/>
+<div class="slide-caption" id="slideCaption">Hair Styling</div>
+</div>
+<div class="slide-controls">
+<button class="btn btn-dark" id="previousSlide" type="button">Previous</button>
+<span aria-live="polite" id="slideCounter">1 of 6</span>
+<button class="btn btn-dark" id="nextSlide" type="button">Next</button>
+<button aria-pressed="false" class="btn" id="toggleSlideshow" type="button">Pause slideshow</button>
+</div>
+</section>
+<section aria-label="Beauty gallery" class="gallery reveal">
+<button class="gallery-item lightbox-trigger" data-lightbox="" type="button"><img alt="Hair styling inspiration" loading="lazy" src="images/hair.jpg"/><span>Hair Styling</span></button>
+<button class="gallery-item lightbox-trigger" data-lightbox="" type="button"><img alt="Nail design inspiration" loading="lazy" src="images/nails.jpg"/><span>Nail Designs</span></button>
+<button class="gallery-item lightbox-trigger" data-lightbox="" type="button"><img alt="Makeup look inspiration" loading="lazy" src="images/makeup.jpg"/><span>Makeup</span></button>
+<button class="gallery-item lightbox-trigger" data-lightbox="" type="button"><img alt="Facial skincare inspiration" loading="lazy" src="images/facial.jpg"/><span>Skin Care</span></button>
+<button class="gallery-item lightbox-trigger" data-lightbox="" type="button"><img alt="Bridal beauty inspiration" loading="lazy" src="images/bridal.jpg"/><span>Bridal Beauty</span></button>
+<button class="gallery-item lightbox-trigger" data-lightbox="" type="button"><img alt="Glam Culture beauty inspiration" loading="lazy" src="images/beauty.jpg"/><span>Glam Culture</span></button>
+</section>
+<dialog aria-label="Expanded gallery image" class="lightbox" id="galleryLightbox">
+<button aria-label="Close image" class="lightbox-close" type="button">×</button>
+<img alt="" id="lightboxImage" src=""/>
+<p id="lightboxCaption"></p>
+</dialog>
+</main>
+<footer class="site-footer">
+<p aria-live="off" class="live-clock" id="liveDateTime">Current date and time loading…</p>
+<p>© 2026 ST10520197 | DISD Glam Culture</p>
+<p>Beauty • Confidence • Self-expression</p>
+</footer>
+<script defer="" src="js/script.js"></script>
+</body>
+</html>

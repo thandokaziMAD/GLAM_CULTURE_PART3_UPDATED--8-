@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Enquire about Glam Culture beauty services in Johannesburg. Select a service and receive an indicative starting-price estimate." name="description"/>
+<meta content="beauty service enquiry Johannesburg, Glam Culture prices, beauty appointments" name="keywords"/>
+<meta content="#a83b67" name="theme-color"/>
+<title>Service Enquiry &amp; Estimate | Glam Culture</title>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="site-header">
+<nav aria-label="Main navigation" class="navbar">
+<a class="brand" href="home.html"><img alt="Glam Culture logo" class="logo" src="images/logo.png"/><span>Glam Culture</span></a>
+<button aria-expanded="false" aria-label="Open navigation" class="menu-btn">Menu</button>
+<ul class="nav-links">
+<li><a href="home.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="services.html">Services</a></li><li><a href="gallery.html">Gallery</a></li><li><a class="active" href="enquiry.html">Enquiry</a></li><li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section class="heading"><h1>Make a Service Enquiry</h1><p>Tell us what you are interested in and receive an indicative starting-price estimate. Your enquiry is not a confirmed booking.</p></section>
+<section class="enquiry-wrap">
+<form action="#enquiryResult" id="enquiryForm" method="get" novalidate="">
+<label for="enquiryName">Full name</label><input autocomplete="name" id="enquiryName" maxlength="80" minlength="2" name="name" required="" type="text"/>
+<label for="enquiryEmail">Email address</label><input autocomplete="email" id="enquiryEmail" maxlength="120" name="email" required="" type="email"/>
+<label for="enquiryService">Service of interest</label>
+<select id="enquiryService" name="service" required="">
+<option disabled="" selected="" value="">Select a service</option>
+<option value="hair">Hair Styling</option><option value="nails">Nail Services</option><option value="makeup">Makeup</option><option value="facials">Facials</option><option value="bridal">Bridal Beauty</option><option value="package">Glam Package</option>
+</select>
+<label for="enquiryDate">Preferred date (optional)</label><input id="enquiryDate" name="preferredDate" type="date"/>
+<label for="enquiryMessage">Tell us more (at least 10 characters)</label><textarea id="enquiryMessage" maxlength="1000" minlength="10" name="message" placeholder="Share your preferred look, event, or questions." required=""></textarea>
+<button class="btn btn-dark" type="submit">Calculate estimate</button>
+<p aria-live="polite" class="form-status" id="enquiryStatus" role="status"></p>
+</form>
+<section aria-live="polite" class="estimate-card" id="enquiryResult">
+<h2>Your estimate</h2><p>Select a service and submit the form to see its starting price.</p>
+</section>
+</section>
+<p class="center-cta">For a personal response, please also use our <a href="contact.html">contact page</a>.</p>
+</main>
+<footer class="site-footer">
+<p aria-live="off" class="live-clock" id="liveDateTime">Current date and time loading…</p><p>© 2026 ST10520197 | DISD Glam Culture</p><p>Beauty • Confidence • Self-expression</p></footer>
+<script defer="" src="js/script.js"></script>
+</body>
+</html>

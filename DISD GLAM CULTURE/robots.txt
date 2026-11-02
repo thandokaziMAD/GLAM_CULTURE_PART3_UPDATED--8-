@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Update the sitemap URL if the deployment address changes.
+Sitemap: https://thandokaziMAD.github.io/GLAM_CULTURE_PART2_VISUAL_STUDIO/sitemap.xml

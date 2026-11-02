@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<meta content="Explore Glam Culture beauty services and starting prices for hair styling, nails, makeup, facials, bridal beauty and custom packages in Johannesburg." name="description"/>
+<meta content="Johannesburg beauty services, hair styling prices, nail services, makeup, facials" name="keywords"/>
+<meta content="#a83b67" name="theme-color"/>
+<title>Beauty Services &amp; Prices | Glam Culture Johannesburg</title>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="site-header">
+<nav aria-label="Main navigation" class="navbar">
+<a class="brand" href="home.html">
+<img alt="Glam Culture logo" class="logo" src="images/logo.png"/>
+<span>Glam Culture</span>
+</a>
+<button aria-expanded="false" aria-label="Open navigation" class="menu-btn">Menu</button>
+<ul class="nav-links">
+<li><a class="" href="home.html">Home</a>
+</li>
+<li><a class="" href="about.html">About Us</a>
+</li>
+<li><a class="active" href="services.html">Services</a>
+</li>
+<li><a class="" href="gallery.html">Gallery</a>
+</li>
+<li><a href="enquiry.html">Enquiry</a></li>
+<li><a class="" href="contact.html">Contact</a>
+</li>
+</ul>
+</nav>
+</header>
+<div aria-hidden="true" class="floating-glam">
+<img alt="" class="float-item" loading="lazy" src="images/makeup.jpg"/>
+<img alt="" class="float-item" loading="lazy" src="images/nails.jpg"/>
+<img alt="" class="float-item" loading="lazy" src="images/hair.jpg"/>
+<img alt="" class="float-item" loading="lazy" src="images/facial.jpg"/>
+</div>
+<main>
+<section class="heading">
+<h1>Our Services</h1>
+<p>Look good. Feel confident. Be you.</p>
+</section>
+<section aria-label="Find a service" class="service-tools container">
+<label for="serviceSearch">Search services</label>
+<input aria-describedby="serviceCount" id="serviceSearch" placeholder="Try nails, makeup, bridal..." type="search"/>
+<label for="serviceSort">Sort by</label>
+<select id="serviceSort"><option value="default">Recommended order</option><option value="price-low">Price: low to high</option><option value="name">Name: A to Z</option></select>
+<p aria-live="polite" id="serviceCount">Showing all 6 services.</p>
+</section>
+<section class="services reveal" id="serviceList">
+<article class="service" data-name="Hair Styling" data-price="250" data-service-card="">
+<h2>Hair Styling</h2>
+<p>Professional hair styling for everyday looks, events and special occasions.</p>
+<div class="price">From R250</div>
+</article>
+<article class="service" data-name="Nail Services" data-price="180" data-service-card="">
+<h2>Nail Services</h2>
+<p>Manicures, nail colour and simple nail designs for a polished finish.</p>
+<div class="price">From R180</div>
+</article>
+<article class="service" data-name="Makeup" data-price="350" data-service-card="">
+<h2>Makeup</h2>
+<p>Beautiful makeup looks for events, celebrations and special occasions.</p>
+<div class="price">From R350</div>
+</article>
+<article class="service" data-name="Facials" data-price="300" data-service-card="">
+<h2>Facials</h2>
+<p>Relaxing facial treatments designed to leave your skin feeling refreshed.</p>
+<div class="price">From R300</div>
+</article>
+<article class="service" data-name="Bridal Beauty" data-price="999999" data-service-card="">
+<h2>Bridal Beauty</h2>
+<p>Beauty preparation and styling for brides and special celebrations.</p>
+<div class="price">Price on Request</div>
+</article>
+<article class="service" data-name="Glam Package" data-price="999999" data-service-card="">
+<h2>Glam Package</h2>
+<p>Combine different beauty services for a complete Glam Culture experience.</p>
+<div class="price">Custom Package</div>
+</article>
+</section>
+<p class="center-cta">Not sure which service suits you? <a class="btn btn-dark" href="enquiry.html">Make a service enquiry</a></p>
+</main>
+<footer class="site-footer">
+<p aria-live="off" class="live-clock" id="liveDateTime">Current date and time loading…</p>
+<p>© 2026 ST10520197 | DISD Glam Culture</p>
+<p>Beauty • Confidence • Self-expression</p>
+</footer>
+<script defer="" src="js/script.js"></script>
+</body>
+</html>
